@@ -1,0 +1,16 @@
+grep -o -w "\w\{4\}" file
+ln test hardlink
+ln -s test softlink
+tr '[:lower:]' '[:upper:]' < sample
+uniq -c file
+cut -c 1,10 file
+grep "[0-9]" file > list
+w | wc -l
+ls -d .* > hidden
+cat capitals | wc -l
+grep -c 'the' mydate
+grep -n 'date' file
+grep -v 'i' mydate
+paste -d ":" file1 file2
+cut -d: f1 /etc/passwd
+w | tee users
